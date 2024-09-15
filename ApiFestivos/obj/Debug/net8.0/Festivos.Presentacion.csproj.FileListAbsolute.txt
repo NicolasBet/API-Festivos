@@ -1,0 +1,7 @@
+C:\Users\HPLaptop\OneDrive\Documentos\TRABAJOS UNIVERSIDAD\HERRAMIENTAS-2\ApiFestivos\ApiFestivos\obj\Debug\net8.0\Festivos.Presentacion.csproj.AssemblyReference.cache
+C:\Users\HPLaptop\OneDrive\Documentos\TRABAJOS UNIVERSIDAD\HERRAMIENTAS-2\ApiFestivos\ApiFestivos\obj\Debug\net8.0\Festivos.Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HPLaptop\OneDrive\Documentos\TRABAJOS UNIVERSIDAD\HERRAMIENTAS-2\ApiFestivos\ApiFestivos\obj\Debug\net8.0\Festivos.Presentacion.AssemblyInfoInputs.cache
+C:\Users\HPLaptop\OneDrive\Documentos\TRABAJOS UNIVERSIDAD\HERRAMIENTAS-2\ApiFestivos\ApiFestivos\obj\Debug\net8.0\Festivos.Presentacion.AssemblyInfo.cs
+C:\Users\HPLaptop\OneDrive\Documentos\TRABAJOS UNIVERSIDAD\HERRAMIENTAS-2\ApiFestivos\ApiFestivos\obj\Debug\net8.0\Festivos.Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\HPLaptop\OneDrive\Documentos\TRABAJOS UNIVERSIDAD\HERRAMIENTAS-2\ApiFestivos\ApiFestivos\obj\Debug\net8.0\Festivos.Presentacion.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HPLaptop\OneDrive\Documentos\TRABAJOS UNIVERSIDAD\HERRAMIENTAS-2\ApiFestivos\ApiFestivos\obj\Debug\net8.0\Festivos.Presentacion.MvcApplicationPartsAssemblyInfo.cache
