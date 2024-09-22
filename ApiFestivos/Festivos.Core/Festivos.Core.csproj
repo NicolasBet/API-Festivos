@@ -10,4 +10,8 @@
     <ProjectReference Include="..\Festivos.Dominio\Festivos.Dominio.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repositorios\prueba\" />
+  </ItemGroup>
+
 </Project>
