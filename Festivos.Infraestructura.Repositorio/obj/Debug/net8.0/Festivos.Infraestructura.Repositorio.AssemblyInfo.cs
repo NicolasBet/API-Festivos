@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Festivos.Core")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Festivos.Infraestructura.Repositorio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a70c9afc83a9d81b6f28ac43b1b85bdea647c613")]
-[assembly: System.Reflection.AssemblyProductAttribute("Festivos.Core")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Festivos.Core")]
+[assembly: System.Reflection.AssemblyProductAttribute("Festivos.Infraestructura.Repositorio")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Festivos.Infraestructura.Repositorio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
