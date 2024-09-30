@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ApiFestivos\Festivos.Core\Festivos.Core.csproj" />
+    <ProjectReference Include="..\Festivos.Infraestructura.Persistencia\Festivos.Infraestructura.Persistencia.csproj" />
   </ItemGroup>
 
 </Project>

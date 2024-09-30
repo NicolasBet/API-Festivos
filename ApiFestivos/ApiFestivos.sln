@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Festivos.Dominio", "Festivo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Festivos.Core", "Festivos.Core\Festivos.Core.csproj", "{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Festivos.Infraestructura.Repositorio", "..\Festivos.Infraestructura.Repositorio\Festivos.Infraestructura.Repositorio.csproj", "{C3F92E9D-1C20-49D0-BEB1-D7AE437DEE67}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C3F92E9D-1C20-49D0-BEB1-D7AE437DEE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C3F92E9D-1C20-49D0-BEB1-D7AE437DEE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C3F92E9D-1C20-49D0-BEB1-D7AE437DEE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C3F92E9D-1C20-49D0-BEB1-D7AE437DEE67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
