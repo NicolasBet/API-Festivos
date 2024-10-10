@@ -1,9 +1,21 @@
+using Festivos.Core.Servicios;
+using Festivos.Infraestructura.Persistencia;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+// Register dependencies for FestivosServicios and FestivoRepositorio
+builder.Services.AddScoped<IFestivosServicios, IFestivosServicios>();
+builder.Services.AddScoped<IFestivoRepositorio, FestivoRepositorio>();
+builder.Services.AddDbContext<FestivosContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
+// Configuring Swagger/OpenAPI
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -17,9 +29,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();

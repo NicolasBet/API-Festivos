@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiFestivos\Festivos.Presentacion.csproj" />
+    <ProjectReference Include="..\Festivos.Infraestructura.Persistencia\Festivos.Infraestructura.Persistencia.csproj" />
+  </ItemGroup>
+
+</Project>

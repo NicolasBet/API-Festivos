@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v+VARBQaBqBoVUDgbP8r6rvgt43832QWFgkwhzzktPqnyZS8Ha4rYQJ24Qo6WYLJ1jsA8bhULVSaAWqXeF46pw==",
+  "dgSpecHash": "YfwnqP7nM2yKvi9joszX0bH7m1NG0c76dgxd7OA1Jk4/my6SlIlONmtcv7YwP9ieBoROeUSBIvCHmtS/kt8u5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Presentacion.csproj",
+  "projectFilePath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Repositorio\\Festivos.Infraestructura.Repositorio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HPLaptop\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\HPLaptop\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

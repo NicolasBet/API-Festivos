@@ -206,12 +206,10 @@
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
-          "build/Microsoft.Extensions.ApiDescription.Server.props": {},
-          "build/Microsoft.Extensions.ApiDescription.Server.targets": {}
+          "build/_._": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
-          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
+          "buildMultiTargeting/_._": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
@@ -595,7 +593,7 @@
           "Swashbuckle.AspNetCore.SwaggerUI": "6.4.0"
         },
         "build": {
-          "build/Swashbuckle.AspNetCore.props": {}
+          "build/_._": {}
         }
       },
       "Swashbuckle.AspNetCore.Swagger/6.4.0": {
@@ -1123,6 +1121,26 @@
         "runtime": {
           "bin/placeholder/Festivos.Infraestructura.Persistencia.dll": {}
         }
+      },
+      "Festivos.Presentacion/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Festivos.Aplicacion": "1.0.0",
+          "Festivos.Infraestructura.Persistencia": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
+          "Swashbuckle.AspNetCore": "6.4.0"
+        },
+        "compile": {
+          "bin/placeholder/Festivos.Presentacion.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Festivos.Presentacion.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -3214,27 +3232,29 @@
     },
     "Festivos.Core/1.0.0": {
       "type": "project",
-      "path": "Festivos.Core/Festivos.Core.csproj",
-      "msbuildProject": "Festivos.Core/Festivos.Core.csproj"
+      "path": "../ApiFestivos/Festivos.Core/Festivos.Core.csproj",
+      "msbuildProject": "../ApiFestivos/Festivos.Core/Festivos.Core.csproj"
     },
     "Festivos.Dominio/1.0.0": {
       "type": "project",
-      "path": "Festivos.Dominio/Festivos.Dominio.csproj",
-      "msbuildProject": "Festivos.Dominio/Festivos.Dominio.csproj"
+      "path": "../ApiFestivos/Festivos.Dominio/Festivos.Dominio.csproj",
+      "msbuildProject": "../ApiFestivos/Festivos.Dominio/Festivos.Dominio.csproj"
     },
     "Festivos.Infraestructura.Persistencia/1.0.0": {
       "type": "project",
       "path": "../Festivos.Infraestructura.Persistencia/Festivos.Infraestructura.Persistencia.csproj",
       "msbuildProject": "../Festivos.Infraestructura.Persistencia/Festivos.Infraestructura.Persistencia.csproj"
+    },
+    "Festivos.Presentacion/1.0.0": {
+      "type": "project",
+      "path": "../ApiFestivos/Festivos.Presentacion.csproj",
+      "msbuildProject": "../ApiFestivos/Festivos.Presentacion.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Festivos.Aplicacion >= 1.0.0",
       "Festivos.Infraestructura.Persistencia >= 1.0.0",
-      "Microsoft.EntityFrameworkCore >= 8.0.8",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.8",
-      "Swashbuckle.AspNetCore >= 6.4.0"
+      "Festivos.Presentacion >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3244,11 +3264,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Presentacion.csproj",
-      "projectName": "Festivos.Presentacion",
-      "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Presentacion.csproj",
+      "projectUniqueName": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Repositorio\\Festivos.Infraestructura.Repositorio.csproj",
+      "projectName": "Festivos.Infraestructura.Repositorio",
+      "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Repositorio\\Festivos.Infraestructura.Repositorio.csproj",
       "packagesPath": "C:\\Users\\HPLaptop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\obj\\",
+      "outputPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Repositorio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3269,8 +3289,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Aplicacion\\Festivos.Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Aplicacion\\Festivos.Aplicacion.csproj"
+            "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Presentacion.csproj": {
+              "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Presentacion.csproj"
             },
             "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Persistencia\\Festivos.Infraestructura.Persistencia.csproj": {
               "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Persistencia\\Festivos.Infraestructura.Persistencia.csproj"
@@ -3292,20 +3312,6 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[8.0.8, )"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "[8.0.8, )"
-          },
-          "Swashbuckle.AspNetCore": {
-            "target": "Package",
-            "version": "[6.4.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -3318,9 +3324,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

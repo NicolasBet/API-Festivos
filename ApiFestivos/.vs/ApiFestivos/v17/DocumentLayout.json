@@ -3,37 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3F92E9D-1C20-49D0-BEB1-D7AE437DEE67}|..\\Festivos.Infraestructura.Repositorio\\Festivos.Infraestructura.Repositorio.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\festivos.infraestructura.repositorio\\tiporepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD43EB62-8408-47CF-AA3F-1AFDD2504867}|Festivos.Presentacion.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\apifestivos\\festivos.dominio\\obj\\debug\\net8.0\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD43EB62-8408-47CF-AA3F-1AFDD2504867}|Festivos.Presentacion.csproj|solutionrelative:festivos.dominio\\obj\\debug\\net8.0\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92A44A05-6157-4B46-AEF0-1A7096ACDC50}|..\\Festivos.Infraestructura.Persistencia\\Festivos.Infraestructura.Persistencia.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\festivos.infraestructura.persistencia\\festivoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3F92E9D-1C20-49D0-BEB1-D7AE437DEE67}|..\\Festivos.Infraestructura.Repositorio\\Festivos.Infraestructura.Repositorio.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\festivos.infraestructura.repositorio\\festivosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD43EB62-8408-47CF-AA3F-1AFDD2504867}|Festivos.Presentacion.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\apifestivos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AD43EB62-8408-47CF-AA3F-1AFDD2504867}|Festivos.Presentacion.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}|Festivos.Core\\Festivos.Core.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\apifestivos\\festivos.core\\servicios\\festivosservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}|Festivos.Core\\Festivos.Core.csproj|solutionrelative:festivos.core\\servicios\\festivosservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}|Festivos.Core\\Festivos.Core.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\apifestivos\\festivos.core\\servicios\\tiposervicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}|Festivos.Core\\Festivos.Core.csproj|solutionrelative:festivos.core\\servicios\\tiposervicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{361FBAF2-5054-4314-9EF4-B6CFD47E6631}|..\\Festivos.Infraestructura.Persistencia\\Festivos.Infraestructura.Persistencia.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\festivos.infraestructura.persistencia\\festivoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}|Festivos.Core\\Festivos.Core.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\apifestivos\\festivos.core\\repositorios\\itiporepositoprio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}|Festivos.Core\\Festivos.Core.csproj|solutionrelative:festivos.core\\repositorios\\itiporepositoprio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}|Festivos.Core\\Festivos.Core.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\apifestivos\\festivos.core\\festivos.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}|Festivos.Core\\Festivos.Core.csproj|solutionrelative:festivos.core\\festivos.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}|Festivos.Core\\Festivos.Core.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\apifestivos\\festivos.core\\repositorios\\ifestivorepositorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}|Festivos.Core\\Festivos.Core.csproj|solutionrelative:festivos.core\\repositorios\\ifestivorepositorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96B6AE74-DB20-4E1C-A38A-51AE01DA1FC6}|Festivos.Dominio\\Festivos.Dominio.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\apifestivos\\festivos.dominio\\entidades\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96B6AE74-DB20-4E1C-A38A-51AE01DA1FC6}|Festivos.Dominio\\Festivos.Dominio.csproj|solutionrelative:festivos.dominio\\entidades\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96B6AE74-DB20-4E1C-A38A-51AE01DA1FC6}|Festivos.Dominio\\Festivos.Dominio.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\apifestivos\\festivos.dominio\\entidades\\festivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96B6AE74-DB20-4E1C-A38A-51AE01DA1FC6}|Festivos.Dominio\\Festivos.Dominio.csproj|solutionrelative:festivos.dominio\\entidades\\festivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}|Festivos.Core\\Festivos.Core.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\apifestivos\\festivos.core\\servicios\\tiposervicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}|Festivos.Core\\Festivos.Core.csproj|solutionrelative:festivos.core\\servicios\\tiposervicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}|Festivos.Core\\Festivos.Core.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\apifestivos\\festivos.core\\servicios\\festivosservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3FF72B-6FAB-4706-9888-50FC3E2BEF0C}|Festivos.Core\\Festivos.Core.csproj|solutionrelative:festivos.core\\servicios\\festivosservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA1B11A-D164-4D93-994E-573B3DFB856E}|..\\Festivos.Infraestructura.Repositorio\\Festivos.Infraestructura.Repositorio.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\festivos.infraestructura.repositorio\\tiporepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA1B11A-D164-4D93-994E-573B3DFB856E}|..\\Festivos.Infraestructura.Repositorio\\Festivos.Infraestructura.Repositorio.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\festivos.infraestructura.repositorio\\festivosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{361FBAF2-5054-4314-9EF4-B6CFD47E6631}|..\\Festivos.Infraestructura.Persistencia\\Festivos.Infraestructura.Persistencia.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\festivos.infraestructura.persistencia\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA1B11A-D164-4D93-994E-573B3DFB856E}|..\\Festivos.Infraestructura.Repositorio\\Festivos.Infraestructura.Repositorio.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\festivos.infraestructura.repositorio\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD43EB62-8408-47CF-AA3F-1AFDD2504867}|Festivos.Presentacion.csproj|c:\\users\\hplaptop\\onedrive\\documentos\\github\\api-festivos\\apifestivos\\festivos.dominio\\obj\\debug\\net8.0\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD43EB62-8408-47CF-AA3F-1AFDD2504867}|Festivos.Presentacion.csproj|solutionrelative:festivos.dominio\\obj\\debug\\net8.0\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,116 +53,152 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "DocumentMoniker": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "RelativeDocumentMoniker": "Festivos.Dominio\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "ToolTip": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "RelativeToolTip": "Festivos.Dominio\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T18:22:23.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-30T18:07:58.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FestivosContext.cs",
-              "DocumentMoniker": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Persistencia\\FestivosContext.cs",
-              "RelativeDocumentMoniker": "..\\Festivos.Infraestructura.Persistencia\\FestivosContext.cs",
-              "ToolTip": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Persistencia\\FestivosContext.cs",
-              "RelativeToolTip": "..\\Festivos.Infraestructura.Persistencia\\FestivosContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T18:06:01.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TipoRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Repositorio\\TipoRepositorio.cs",
-              "RelativeDocumentMoniker": "..\\Festivos.Infraestructura.Repositorio\\TipoRepositorio.cs",
-              "ToolTip": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Repositorio\\TipoRepositorio.cs",
-              "RelativeToolTip": "..\\Festivos.Infraestructura.Repositorio\\TipoRepositorio.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T12:15:59.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "FestivosRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Repositorio\\FestivosRepositorio.cs",
               "RelativeDocumentMoniker": "..\\Festivos.Infraestructura.Repositorio\\FestivosRepositorio.cs",
               "ToolTip": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Repositorio\\FestivosRepositorio.cs",
               "RelativeToolTip": "..\\Festivos.Infraestructura.Repositorio\\FestivosRepositorio.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAowCEAAAAAAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwDUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T12:14:52.367Z"
+              "WhenOpened": "2024-09-30T20:33:09.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "Tipo.cs",
+              "DocumentMoniker": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\Entidades\\Tipo.cs",
+              "RelativeDocumentMoniker": "Festivos.Dominio\\Entidades\\Tipo.cs",
+              "ToolTip": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\Entidades\\Tipo.cs",
+              "RelativeToolTip": "Festivos.Dominio\\Entidades\\Tipo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:26:48.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TipoServicios.cs",
               "DocumentMoniker": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Servicios\\TipoServicios.cs",
               "RelativeDocumentMoniker": "Festivos.Core\\Servicios\\TipoServicios.cs",
               "ToolTip": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Servicios\\TipoServicios.cs",
               "RelativeToolTip": "Festivos.Core\\Servicios\\TipoServicios.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T18:14:40.838Z"
+              "WhenOpened": "2024-09-30T20:14:22.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FestivosServicios.cs",
               "DocumentMoniker": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Servicios\\FestivosServicios.cs",
               "RelativeDocumentMoniker": "Festivos.Core\\Servicios\\FestivosServicios.cs",
               "ToolTip": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Servicios\\FestivosServicios.cs",
               "RelativeToolTip": "Festivos.Core\\Servicios\\FestivosServicios.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBUAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T18:14:02.833Z"
+              "WhenOpened": "2024-09-30T20:23:49.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Festivos.Core.csproj",
-              "DocumentMoniker": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Festivos.Core.csproj",
-              "RelativeDocumentMoniker": "Festivos.Core\\Festivos.Core.csproj",
-              "ToolTip": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Festivos.Core.csproj",
-              "RelativeToolTip": "Festivos.Core\\Festivos.Core.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-15T18:13:11.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "ITipoRepositoprio.cs",
               "DocumentMoniker": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Repositorios\\ITipoRepositoprio.cs",
               "RelativeDocumentMoniker": "Festivos.Core\\Repositorios\\ITipoRepositoprio.cs",
               "ToolTip": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Repositorios\\ITipoRepositoprio.cs",
               "RelativeToolTip": "Festivos.Core\\Repositorios\\ITipoRepositoprio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T18:12:46.562Z"
+              "WhenOpened": "2024-09-30T20:22:13.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TipoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Repositorio\\TipoRepositorio.cs",
+              "RelativeDocumentMoniker": "..\\Festivos.Infraestructura.Repositorio\\TipoRepositorio.cs",
+              "ToolTip": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Repositorio\\TipoRepositorio.cs",
+              "RelativeToolTip": "..\\Festivos.Infraestructura.Repositorio\\TipoRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:15:07.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FestivosContext.cs",
+              "DocumentMoniker": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Persistencia\\FestivosContext.cs",
+              "RelativeDocumentMoniker": "..\\Festivos.Infraestructura.Persistencia\\FestivosContext.cs",
+              "ToolTip": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Persistencia\\FestivosContext.cs",
+              "RelativeToolTip": "..\\Festivos.Infraestructura.Persistencia\\FestivosContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:11:56.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Persistencia\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Festivos.Infraestructura.Persistencia\\Class1.cs",
+              "ToolTip": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Persistencia\\Class1.cs",
+              "RelativeToolTip": "..\\Festivos.Infraestructura.Persistencia\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:11:36.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Repositorio\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Festivos.Infraestructura.Repositorio\\Class1.cs",
+              "ToolTip": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Repositorio\\Class1.cs",
+              "RelativeToolTip": "..\\Festivos.Infraestructura.Repositorio\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:10:03.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "Festivos.Dominio\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "Festivos.Dominio\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:01:33.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IFestivoRepositorios.cs",
+              "DocumentMoniker": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Repositorios\\IFestivoRepositorios.cs",
+              "RelativeDocumentMoniker": "Festivos.Core\\Repositorios\\IFestivoRepositorios.cs",
+              "ToolTip": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Repositorios\\IFestivoRepositorios.cs",
+              "RelativeToolTip": "Festivos.Core\\Repositorios\\IFestivoRepositorios.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T19:59:36.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Festivo.cs",
+              "DocumentMoniker": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\Entidades\\Festivo.cs",
+              "RelativeDocumentMoniker": "Festivos.Dominio\\Entidades\\Festivo.cs",
+              "ToolTip": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\Entidades\\Festivo.cs",
+              "RelativeToolTip": "Festivos.Dominio\\Entidades\\Festivo.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T19:57:33.712Z"
             }
           ]
         }
