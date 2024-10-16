@@ -1,0 +1,6 @@
+C:\Users\HPLaptop\OneDrive\Documentos\GitHub\API-Festivos\Festivos.Infraestructura.Repositorio\obj\Debug\net8.0\Festivos.Infraestructura.Repositorio.csproj.AssemblyReference.cache
+C:\Users\HPLaptop\OneDrive\Documentos\GitHub\API-Festivos\Festivos.Infraestructura.Repositorio\obj\Debug\net8.0\Festivos.Infraestructura.Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HPLaptop\OneDrive\Documentos\GitHub\API-Festivos\Festivos.Infraestructura.Repositorio\obj\Debug\net8.0\Festivos.Infraestructura.Repositorio.AssemblyInfoInputs.cache
+C:\Users\HPLaptop\OneDrive\Documentos\GitHub\API-Festivos\Festivos.Infraestructura.Repositorio\obj\Debug\net8.0\Festivos.Infraestructura.Repositorio.AssemblyInfo.cs
+C:\Users\HPLaptop\OneDrive\Documentos\GitHub\API-Festivos\Festivos.Infraestructura.Repositorio\obj\Debug\net8.0\Festivos.Infraestructura.Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\HPLaptop\OneDrive\Documentos\GitHub\API-Festivos\Festivos.Infraestructura.Repositorio\obj\Debug\net8.0\Festivos.Infraestructura.Repositorio.sourcelink.json

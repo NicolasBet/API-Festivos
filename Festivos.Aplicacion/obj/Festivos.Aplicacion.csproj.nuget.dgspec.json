@@ -166,6 +166,9 @@
             "projectReferences": {
               "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Festivos.Core.csproj": {
                 "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Festivos.Core.csproj"
+              },
+              "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\Festivos.Dominio.csproj": {
+                "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\Festivos.Dominio.csproj"
               }
             }
           }

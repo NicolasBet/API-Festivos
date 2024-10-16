@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ApiFestivos\Festivos.Core\Festivos.Core.csproj" />
+    <ProjectReference Include="..\ApiFestivos\Festivos.Dominio\Festivos.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>

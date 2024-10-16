@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Festivos.Infraestructura.Persistencia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56064d111c17e10059d5ef6e3c72e82f99372f63")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0343cda855f3156f30fd89f653e361b3caa09fd9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Festivos.Infraestructura.Persistencia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Festivos.Infraestructura.Persistencia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

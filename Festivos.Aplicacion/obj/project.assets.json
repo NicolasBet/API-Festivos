@@ -41,7 +41,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Festivos.Core >= 1.0.0"
+      "Festivos.Core >= 1.0.0",
+      "Festivos.Dominio >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -78,6 +79,9 @@
           "projectReferences": {
             "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Festivos.Core.csproj": {
               "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Festivos.Core.csproj"
+            },
+            "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\Festivos.Dominio.csproj": {
+              "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\Festivos.Dominio.csproj"
             }
           }
         }

@@ -188,6 +188,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -254,6 +258,9 @@
             "projectReferences": {
               "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Festivos.Core.csproj": {
                 "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Festivos.Core.csproj"
+              },
+              "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\Festivos.Dominio.csproj": {
+                "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\Festivos.Dominio.csproj"
               }
             }
           }
