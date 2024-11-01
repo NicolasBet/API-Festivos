@@ -1145,6 +1145,8 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Festivos.Aplicacion": "1.0.0",
+          "Festivos.Core": "1.0.0",
+          "Festivos.Dominio": "1.0.0",
           "Festivos.Infraestructura.Persistencia": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
@@ -3270,8 +3272,8 @@
     },
     "Festivos.Dominio/1.0.0": {
       "type": "project",
-      "path": "../ApiFestivos/Festivos.Dominio/Festivos.Dominio.csproj",
-      "msbuildProject": "../ApiFestivos/Festivos.Dominio/Festivos.Dominio.csproj"
+      "path": "../Festivos.Dominio/Festivos.Dominio.csproj",
+      "msbuildProject": "../Festivos.Dominio/Festivos.Dominio.csproj"
     },
     "Festivos.Infraestructura.Persistencia/1.0.0": {
       "type": "project",
@@ -3286,6 +3288,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Festivos.Core >= 1.0.0",
+      "Festivos.Dominio >= 1.0.0",
       "Festivos.Infraestructura.Persistencia >= 1.0.0",
       "Festivos.Presentacion >= 1.0.0"
     ]
@@ -3322,8 +3326,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Festivos.Core.csproj": {
+              "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Core\\Festivos.Core.csproj"
+            },
+            "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\Festivos.Dominio.csproj": {
+              "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\Festivos.Dominio.csproj"
+            },
             "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Presentacion.csproj": {
               "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Presentacion.csproj"
+            },
+            "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Core\\Festivos.Core.csproj": {
+              "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Core\\Festivos.Core.csproj"
+            },
+            "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Dominio\\Festivos.Dominio.csproj": {
+              "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Dominio\\Festivos.Dominio.csproj"
             },
             "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Persistencia\\Festivos.Infraestructura.Persistencia.csproj": {
               "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Persistencia\\Festivos.Infraestructura.Persistencia.csproj"

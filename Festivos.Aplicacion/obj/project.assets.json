@@ -35,8 +35,8 @@
     },
     "Festivos.Dominio/1.0.0": {
       "type": "project",
-      "path": "../ApiFestivos/Festivos.Dominio/Festivos.Dominio.csproj",
-      "msbuildProject": "../ApiFestivos/Festivos.Dominio/Festivos.Dominio.csproj"
+      "path": "../Festivos.Dominio/Festivos.Dominio.csproj",
+      "msbuildProject": "../Festivos.Dominio/Festivos.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -82,6 +82,12 @@
             },
             "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\Festivos.Dominio.csproj": {
               "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Dominio\\Festivos.Dominio.csproj"
+            },
+            "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Core\\Festivos.Core.csproj": {
+              "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Core\\Festivos.Core.csproj"
+            },
+            "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Dominio\\Festivos.Dominio.csproj": {
+              "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Dominio\\Festivos.Dominio.csproj"
             }
           }
         }

@@ -2,11 +2,6 @@
 using Festivos.Dominio.Entidades;
 using Festivos.Infraestructura.Persistencia;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Festivos.Infraestructura.Repositorio
 {
@@ -22,25 +17,25 @@ namespace Festivos.Infraestructura.Repositorio
    
         public async Task AgregarFestivo(Festivo festivo)
         {
-            _context.Festivos.Add(festivo);
+            _context.Festivo.Add(festivo);
             await _context.SaveChangesAsync(); 
         }
 
 
         public async Task<Festivo> ObtenerPorFecha(DateTime date)
         {
-            return await _context.Festivos
+            return await _context.Festivo
                                  .FirstOrDefaultAsync(f => f.Dia == date.Day && f.Mes == date.Month);
         }
 
 
         public async Task EliminarFestivo(DateTime date)
         {
-            var festivo = await _context.Festivos
+            var festivo = await _context.Festivo
                                         .FirstOrDefaultAsync(f => f.Dia == date.Day && f.Mes == date.Month);
             if (festivo != null)
             {
-                _context.Festivos.Remove(festivo);
+                _context.Festivo.Remove(festivo);
                 await _context.SaveChangesAsync();
             }
         }
@@ -49,7 +44,7 @@ namespace Festivos.Infraestructura.Repositorio
 
         public async Task<IEnumerable<Festivo>> obtenerTodos()
         {
-            return await _context.Festivos.ToListAsync();
+            return await _context.Festivo.ToListAsync();
         }
     }
 

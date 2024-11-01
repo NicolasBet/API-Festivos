@@ -4,6 +4,7 @@ using Festivos.Infraestructura.Persistencia; // Asegúrate de incluir esta direct
 using Festivos.Infraestructura.Repositorio;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
+using Festivos.Aplicacion;
 using Festivos.Aplicacion.Servicios; // Si estás usando AutoMapper, también necesitas esto
 
 var builder = WebApplication.CreateBuilder(args);

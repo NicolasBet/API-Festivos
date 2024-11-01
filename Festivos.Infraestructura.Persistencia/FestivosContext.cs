@@ -12,7 +12,7 @@ namespace Festivos.Infraestructura.Persistencia
         }
 
         public DbSet<Tipo> Tipos { get; set; }
-        public DbSet<Festivo> Festivos { get; set; }
+        public DbSet<Festivo> Festivo { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
