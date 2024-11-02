@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ApiFestivos\Festivos.Dominio\Festivos.Dominio.csproj" />
+    <ProjectReference Include="..\Festivos.Dominio\Festivos.Dominio.csproj" />
     <ProjectReference Include="..\Festivos.Dominio\Festivos.Dominio.csproj" />
   </ItemGroup>
 

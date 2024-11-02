@@ -1,17 +1,17 @@
-using Festivos.Core.Repositorios; // Asegúrate de incluir esta directiva
-using Festivos.Core.Servicios; // Asegúrate de incluir esta directiva
-using Festivos.Infraestructura.Persistencia; // Asegúrate de incluir esta directiva
+using Festivos.Core.Repositorios; 
+using Festivos.Core.Servicios; 
+using Festivos.Infraestructura.Persistencia; 
 using Festivos.Infraestructura.Repositorio;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using Festivos.Aplicacion;
-using Festivos.Aplicacion.Servicios; // Si estás usando AutoMapper, también necesitas esto
+using Festivos.Aplicacion.Servicios; 
 
 var builder = WebApplication.CreateBuilder(args);
 
 //***** Add services to the container. *****
 
-// Configuración del Mapeador de objetos (si lo necesitas)
+// Configuración del Mapeador de objetos 
 var mapperConfig = new MapperConfiguration(cfg =>
 {
     //cfg.AddProfile<MappingProfile>(); // Descomenta y agrega tu perfil de mapeo si lo necesitas
@@ -54,7 +54,11 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "API Festivos v1"); // Endpoint del archivo de configuración Swagger
+        c.RoutePrefix = string.Empty; // Hace que Swagger sea la página de inicio
+    });
 }
 
 app.UseHttpsRedirection();

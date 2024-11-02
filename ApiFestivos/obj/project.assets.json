@@ -1140,6 +1140,22 @@
         "runtime": {
           "bin/placeholder/Festivos.Infraestructura.Persistencia.dll": {}
         }
+      },
+      "Festivos.Infraestructura.Repositorio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Festivos.Aplicacion": "1.0.0",
+          "Festivos.Core": "1.0.0",
+          "Festivos.Dominio": "1.0.0",
+          "Festivos.Infraestructura.Persistencia": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Festivos.Infraestructura.Repositorio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Festivos.Infraestructura.Repositorio.dll": {}
+        }
       }
     }
   },
@@ -3246,18 +3262,23 @@
     },
     "Festivos.Core/1.0.0": {
       "type": "project",
-      "path": "Festivos.Core/Festivos.Core.csproj",
-      "msbuildProject": "Festivos.Core/Festivos.Core.csproj"
+      "path": "../Festivos.Core/Festivos.Core.csproj",
+      "msbuildProject": "../Festivos.Core/Festivos.Core.csproj"
     },
     "Festivos.Dominio/1.0.0": {
       "type": "project",
-      "path": "Festivos.Dominio/Festivos.Dominio.csproj",
-      "msbuildProject": "Festivos.Dominio/Festivos.Dominio.csproj"
+      "path": "../Festivos.Dominio/Festivos.Dominio.csproj",
+      "msbuildProject": "../Festivos.Dominio/Festivos.Dominio.csproj"
     },
     "Festivos.Infraestructura.Persistencia/1.0.0": {
       "type": "project",
       "path": "../Festivos.Infraestructura.Persistencia/Festivos.Infraestructura.Persistencia.csproj",
       "msbuildProject": "../Festivos.Infraestructura.Persistencia/Festivos.Infraestructura.Persistencia.csproj"
+    },
+    "Festivos.Infraestructura.Repositorio/1.0.0": {
+      "type": "project",
+      "path": "../Festivos.Infraestructura.Repositorio/Festivos.Infraestructura.Repositorio.csproj",
+      "msbuildProject": "../Festivos.Infraestructura.Repositorio/Festivos.Infraestructura.Repositorio.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3267,6 +3288,7 @@
       "Festivos.Core >= 1.0.0",
       "Festivos.Dominio >= 1.0.0",
       "Festivos.Infraestructura.Persistencia >= 1.0.0",
+      "Festivos.Infraestructura.Repositorio >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.8",
       "Swashbuckle.AspNetCore >= 6.4.0"
@@ -3315,6 +3337,9 @@
             },
             "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Persistencia\\Festivos.Infraestructura.Persistencia.csproj": {
               "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Persistencia\\Festivos.Infraestructura.Persistencia.csproj"
+            },
+            "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Repositorio\\Festivos.Infraestructura.Repositorio.csproj": {
+              "projectPath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\Festivos.Infraestructura.Repositorio\\Festivos.Infraestructura.Repositorio.csproj"
             }
           }
         }

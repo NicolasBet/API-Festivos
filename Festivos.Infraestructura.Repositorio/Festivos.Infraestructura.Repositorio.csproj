@@ -8,10 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ApiFestivos\Festivos.Core\Festivos.Core.csproj" />
-    <ProjectReference Include="..\ApiFestivos\Festivos.Dominio\Festivos.Dominio.csproj" />
-    <ProjectReference Include="..\ApiFestivos\Festivos.Presentacion.csproj" />
-    <ProjectReference Include="..\Festivos.Core\Festivos.Core.csproj" />
+    <ProjectReference Include="..\Festivos.Aplicacion\Festivos.Aplicacion.csproj" />
+	<ProjectReference Include="..\Festivos.Core\Festivos.Core.csproj" />
     <ProjectReference Include="..\Festivos.Dominio\Festivos.Dominio.csproj" />
     <ProjectReference Include="..\Festivos.Infraestructura.Persistencia\Festivos.Infraestructura.Persistencia.csproj" />
   </ItemGroup>
