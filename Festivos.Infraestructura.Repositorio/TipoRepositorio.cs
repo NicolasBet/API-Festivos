@@ -1,9 +1,7 @@
 ﻿using Festivos.Core.Repositorios;
 using Festivos.Dominio.Entidades;
-using Festivos.Dominio.Entidades;
 using Festivos.Infraestructura.Persistencia;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -18,19 +16,20 @@ namespace Festivos.Infraestructura.Repositorio
             _context = context;
         }
 
-        Task ITipoRepositorio.AgregarTipo(Tipo tipo)
+        public async Task<IEnumerable<Tipo>> ObtenerTodos()
         {
-            throw new NotImplementedException();
+            return await _context.Tipos.ToListAsync();
         }
 
-        Task<Tipo> ITipoRepositorio.ObtenerPorId(int id)
+        public async Task<Tipo> ObtenerPorId(int id)
         {
-            throw new NotImplementedException();
+            return await _context.Tipos.FindAsync(id);
         }
 
-        Task<IEnumerable<Tipo>> ITipoRepositorio.ObtenerTodos()
+        public async Task AgregarTipo(Tipo tipo)
         {
-            throw new NotImplementedException();
+            _context.Tipos.Add(tipo);
+            await _context.SaveChangesAsync();
         }
     }
 }

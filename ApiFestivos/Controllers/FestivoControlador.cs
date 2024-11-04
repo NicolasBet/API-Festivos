@@ -1,5 +1,5 @@
-﻿using Festivos.Core.Servicios; // Asegúrate de que la interfaz correcta esté aquí
-using Festivos.Dominio.Entidades; // Asegúrate de que la entidad "Festivo" esté aquí
+﻿using Festivos.Core.Servicios;
+using Festivos.Dominio.Entidades;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -29,22 +29,36 @@ namespace Festivos.Presentacion.Controllers
 
         // GET: api/FestivoControlador/{fecha}
         [HttpGet("{fecha}")]
-        public async Task<ActionResult<Festivo>> EsFestivo(DateTime fecha)
+        public async Task<ActionResult> EsFestivo(DateTime fecha)
         {
-            var festivo = await _festivoServicio.EsFestivo(fecha);
-            if (festivo == null)
+            // Llama al servicio para comprobar si la fecha es festiva
+            var esFestivo = await _festivoServicio.EsFestivo(fecha);
+            if (!esFestivo)
             {
                 return NotFound(new { mensaje = "La fecha proporcionada no es festiva" });
             }
-            return Ok(festivo);
+            return Ok(new { mensaje = "La fecha proporcionada es festiva" });
         }
 
         // POST: api/FestivoControlador
         [HttpPost]
         public async Task<ActionResult> AgregarFestivo([FromBody] Festivo nuevoFestivo)
         {
+            if (nuevoFestivo == null || string.IsNullOrEmpty(nuevoFestivo.Nombre))
+            {
+                return BadRequest(new { mensaje = "Los datos del festivo son inválidos o incompletos" });
+            }
+
             await _festivoServicio.AgregarNuevoFestivo(nuevoFestivo);
-            return CreatedAtAction(nameof(EsFestivo), new { fecha = nuevoFestivo.Fecha }, nuevoFestivo);
+            return CreatedAtAction(nameof(EsFestivo), new { fecha = new DateTime(1, nuevoFestivo.Mes, nuevoFestivo.Dia) }, nuevoFestivo);
+        }
+
+        // DELETE: api/FestivoControlador/{fecha}
+        [HttpDelete("{fecha}")]
+        public async Task<ActionResult> EliminarFestivo(DateTime fecha)
+        {
+            await _festivoServicio.EliminarFestivo(fecha);
+            return NoContent();
         }
     }
 }
