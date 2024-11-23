@@ -34,7 +34,6 @@ builder.Services.AddCors(options =>
 // Agregar dependencias de servicios y repositorios
 builder.Services.AddScoped<IFestivosServicios, FestivoServicios>();
 builder.Services.AddScoped<IFestivosRepositorios, FestivosRepositorio>();
-// Agregar en Program.cs o Startup.cs
 builder.Services.AddScoped<ITipoServicios, TipoServicios>();
 builder.Services.AddScoped<ITipoRepositorio, TipoRepositorio>();
 
@@ -66,8 +65,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseAuthorization();
 app.UseCors("PoliticaCors");
+app.UseAuthorization();
 
 app.MapControllers();
 
