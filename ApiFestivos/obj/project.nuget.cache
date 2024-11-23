@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "svkz5fcyXqsFdLoesi8x9v6RfXrngb//aCcPo5MN3M8VnKUzZfKvYgrUw2kEqPSEsBCtetQPYIm8bkonSOA0sg==",
-  "success": true,
+  "dgSpecHash": "8yUKk2+4wFhQEbh9FKawFfhgqrsge7JdgZp1plrb82Qn6Tzp9HQa7gv+ILPwx8Fv7KXXYydnMh5KYVHEpLeK8Q==",
+  "success": false,
   "projectFilePath": "C:\\Users\\HPLaptop\\OneDrive\\Documentos\\GitHub\\API-Festivos\\ApiFestivos\\Festivos.Presentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HPLaptop\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
@@ -23,7 +23,7 @@
     "C:\\Users\\HPLaptop\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.10\\microsoft.entityframeworkcore.design.8.0.10.nupkg.sha512",
     "C:\\Users\\HPLaptop\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.10\\microsoft.entityframeworkcore.relational.8.0.10.nupkg.sha512",
     "C:\\Users\\HPLaptop\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.8\\microsoft.entityframeworkcore.sqlserver.8.0.8.nupkg.sha512",
-    "C:\\Users\\HPLaptop\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.10\\microsoft.entityframeworkcore.tools.8.0.10.nupkg.sha512",
+    "C:\\Users\\HPLaptop\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.0\\microsoft.entityframeworkcore.tools.9.0.0.nupkg.sha512",
     "C:\\Users\\HPLaptop\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\HPLaptop\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\HPLaptop\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.1\\microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
@@ -88,5 +88,42 @@
     "C:\\Users\\HPLaptop\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\HPLaptop\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Advertencia como error: Degradación del paquete detectada: Microsoft.EntityFrameworkCore.Design de 9.0.0 a 8.0.10. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n Festivos.Presentacion -> Microsoft.EntityFrameworkCore.Tools 9.0.0 -> Microsoft.EntityFrameworkCore.Design (>= 9.0.0) \r\n Festivos.Presentacion -> Microsoft.EntityFrameworkCore.Design (>= 8.0.10)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Advertencia como error: Degradación del paquete detectada: Microsoft.EntityFrameworkCore de 9.0.0 a 8.0.10. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n Festivos.Presentacion -> Festivos.Infraestructura.Persistencia -> Microsoft.EntityFrameworkCore (>= 9.0.0) \r\n Festivos.Presentacion -> Microsoft.EntityFrameworkCore (>= 8.0.10)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Advertencia como error: Degradación del paquete detectada: Microsoft.EntityFrameworkCore.SqlServer de 9.0.0 a 8.0.8. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n Festivos.Presentacion -> Festivos.Infraestructura.Persistencia -> Microsoft.EntityFrameworkCore.SqlServer (>= 9.0.0) \r\n Festivos.Presentacion -> Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.8)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Advertencia como error: Degradación del paquete detectada: Microsoft.EntityFrameworkCore.Relational de 9.0.0 a 8.0.10. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n Festivos.Presentacion -> Festivos.Infraestructura.Persistencia -> Microsoft.EntityFrameworkCore.Relational (>= 9.0.0) \r\n Festivos.Presentacion -> Microsoft.EntityFrameworkCore.Relational (>= 8.0.10)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

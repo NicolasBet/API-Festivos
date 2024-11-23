@@ -1,22 +1,23 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Festivos.Dominio.Entidades;
-using System.Collections.Generic;
-using System.Reflection.Emit;
+﻿using Festivos.Dominio.Entidades;
+using Microsoft.EntityFrameworkCore;
 
-namespace Festivos.Infraestructura.Persistencia
+public class FestivosContext : DbContext
 {
-    public class FestivosContext : DbContext
+    public FestivosContext(DbContextOptions<FestivosContext> options) : base(options)
     {
-        public FestivosContext(DbContextOptions<FestivosContext> options) : base(options)
-        {
-        }
+    }
 
-        public DbSet<Tipo> Tipos { get; set; }
-        public DbSet<Festivo> Festivo { get; set; }
+    public DbSet<Festivo> Festivo { get; set; }
+    public DbSet<Tipo> Tipo { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-        }
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Festivo>()
+            .HasOne(f => f.Tipo)
+            .WithMany()
+            .HasForeignKey(f => f.IdTipo)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        base.OnModelCreating(modelBuilder);
     }
 }

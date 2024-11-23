@@ -1,4 +1,5 @@
 C:\Users\HPLaptop\OneDrive\Documentos\GitHub\API-Festivos\Festivos.Infraestructura.Persistencia\bin\Debug\net8.0\Festivos.Infraestructura.Persistencia.deps.json
+C:\Users\HPLaptop\OneDrive\Documentos\GitHub\API-Festivos\Festivos.Infraestructura.Persistencia\bin\Debug\net8.0\Festivos.Infraestructura.Persistencia.runtimeconfig.json
 C:\Users\HPLaptop\OneDrive\Documentos\GitHub\API-Festivos\Festivos.Infraestructura.Persistencia\bin\Debug\net8.0\Festivos.Infraestructura.Persistencia.dll
 C:\Users\HPLaptop\OneDrive\Documentos\GitHub\API-Festivos\Festivos.Infraestructura.Persistencia\bin\Debug\net8.0\Festivos.Infraestructura.Persistencia.pdb
 C:\Users\HPLaptop\OneDrive\Documentos\GitHub\API-Festivos\Festivos.Infraestructura.Persistencia\bin\Debug\net8.0\Festivos.Dominio.dll
@@ -11,4 +12,5 @@ C:\Users\HPLaptop\OneDrive\Documentos\GitHub\API-Festivos\Festivos.Infraestructu
 C:\Users\HPLaptop\OneDrive\Documentos\GitHub\API-Festivos\Festivos.Infraestructura.Persistencia\obj\Debug\net8.0\Festivos.Infraestructura.Persistencia.dll
 C:\Users\HPLaptop\OneDrive\Documentos\GitHub\API-Festivos\Festivos.Infraestructura.Persistencia\obj\Debug\net8.0\refint\Festivos.Infraestructura.Persistencia.dll
 C:\Users\HPLaptop\OneDrive\Documentos\GitHub\API-Festivos\Festivos.Infraestructura.Persistencia\obj\Debug\net8.0\Festivos.Infraestructura.Persistencia.pdb
+C:\Users\HPLaptop\OneDrive\Documentos\GitHub\API-Festivos\Festivos.Infraestructura.Persistencia\obj\Debug\net8.0\Festivos.Infraestructura.Persistencia.genruntimeconfig.cache
 C:\Users\HPLaptop\OneDrive\Documentos\GitHub\API-Festivos\Festivos.Infraestructura.Persistencia\obj\Debug\net8.0\ref\Festivos.Infraestructura.Persistencia.dll

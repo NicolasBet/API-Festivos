@@ -11,6 +11,7 @@ namespace Festivos.Dominio.Entidades
     [Table("Festivo")]
     public class Festivo
     {
+        [Key]
         [Column("Id")]
         public int Id { get; set; }
 
@@ -28,7 +29,8 @@ namespace Festivos.Dominio.Entidades
 
         [Column("IdTipo")]
         public int IdTipo { get; set; }
-        public Tipo Tipo { get; set; }
 
+        [ForeignKey("IdTipo")]
+        public Tipo Tipo { get; set; }
     }
 }

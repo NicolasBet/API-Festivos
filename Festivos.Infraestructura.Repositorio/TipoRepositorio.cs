@@ -18,17 +18,17 @@ namespace Festivos.Infraestructura.Repositorio
 
         public async Task<IEnumerable<Tipo>> ObtenerTodos()
         {
-            return await _context.Tipos.ToListAsync();
+            return await _context.Tipo.ToListAsync();
         }
 
         public async Task<Tipo> ObtenerPorId(int id)
         {
-            return await _context.Tipos.FindAsync(id);
+            return await _context.Tipo.FindAsync(id);
         }
 
         public async Task AgregarTipo(Tipo tipo)
         {
-            _context.Tipos.Add(tipo);
+            _context.Tipo.Add(tipo);
             await _context.SaveChangesAsync();
         }
     }
